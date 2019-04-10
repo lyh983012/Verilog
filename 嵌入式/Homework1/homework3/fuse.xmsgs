@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/lyh/Desktop/Homework/homework3/my8255A.v" Line 49: Redeclaration of ansi port <arg fmt="%s" index="1">INTR_A</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/lyh/Desktop/Homework/homework3/my8255A.v" Line 50: Redeclaration of ansi port <arg fmt="%s" index="1">INTR_B</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/lyh/Desktop/Homework/homework3/my8255A.v" Line 51: Redeclaration of ansi port <arg fmt="%s" index="1">IBF_A</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/lyh/Desktop/Homework/homework3/my8255A.v" Line 52: Redeclaration of ansi port <arg fmt="%s" index="1">OBF_B</arg> is not allowed
+</msg>
+
+</messages>
+

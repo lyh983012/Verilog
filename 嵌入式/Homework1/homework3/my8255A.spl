@@ -1,0 +1,23 @@
+[Inputs]
+INTE_A
+STB
+INTE_B
+ACK
+RST
+IOR
+IOW
+AEN
+GND
+=SA[9:0]=
+=PA[7:0]=
+[Outputs]
+INTR_A
+IBF_A
+INTR_B
+OBF_B
+=PB[7:0]=
+[BiDir]
+=SD[7:0]=
+[ATTRIBUTES]
+VeriModel my8255A
+

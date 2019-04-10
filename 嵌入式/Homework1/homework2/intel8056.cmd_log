@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework2/intel8056.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework2/intel8056.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 intel8056.ngc intel8056.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o intel8056_map.ncd intel8056.ngd intel8056.pcf 
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o intel8056_map.ncd intel8056.ngd intel8056.pcf 
+vhdtdtfi -lib work C:/Users/lyh/Desktop/Homework/homework2/intel8056.v -lang verilog -prj homework2 -o intel8056.spl -module intel8056 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 intel8056.spl C:/Users/lyh/Desktop/Homework/homework2/intel8056.sym 
+vhdtdtfi -lib work C:/Users/lyh/Desktop/Homework/homework2/intel8056.v -lang verilog -prj homework2 -o intel8056.spl -module intel8056 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 intel8056.spl C:/Users/lyh/Desktop/Homework/homework2/intel8056.sym 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework2/intel8056.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework2/intel8056.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 intel8056.ngc intel8056.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o intel8056_map.ncd intel8056.ngd intel8056.pcf 
+vhdtdtfi -lib work C:/Users/lyh/Desktop/Homework/homework2/intel8056.v -lang verilog -prj homework2 -o intel8056.spl -module intel8056 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 intel8056.spl C:/Users/lyh/Desktop/Homework/homework2/intel8056.sym 

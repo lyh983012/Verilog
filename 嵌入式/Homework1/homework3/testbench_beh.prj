@@ -1,0 +1,3 @@
+verilog work "my8255A.v"
+verilog work "testbench.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

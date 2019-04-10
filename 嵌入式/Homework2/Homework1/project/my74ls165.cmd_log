@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/Homework1/my74ls165.xst" -ofn "C:/Users/lyh/Desktop/Homework/Homework1/my74ls165.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/Homework1/my74ls165.xst" -ofn "C:/Users/lyh/Desktop/Homework/Homework1/my74ls165.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/Homework1/my74ls165.xst" -ofn "C:/Users/lyh/Desktop/Homework/Homework1/my74ls165.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 my74ls165.ngc my74ls165.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o my74ls165_map.ncd my74ls165.ngd my74ls165.pcf 
+par -w -intstyle ise -ol high -mt off my74ls165_map.ncd my74ls165.ncd my74ls165.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml my74ls165.twx my74ls165.ncd -o my74ls165.twr my74ls165.pcf 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/Homework1/my74ls165.xst" -ofn "C:/Users/lyh/Desktop/Homework/Homework1/my74ls165.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/Homework1/my74ls165.xst" -ofn "C:/Users/lyh/Desktop/Homework/Homework1/my74ls165.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 my74ls165.ngc my74ls165.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o my74ls165_map.ncd my74ls165.ngd my74ls165.pcf 
+par -w -intstyle ise -ol high -mt off my74ls165_map.ncd my74ls165.ncd my74ls165.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml my74ls165.twx my74ls165.ncd -o my74ls165.twr my74ls165.pcf 

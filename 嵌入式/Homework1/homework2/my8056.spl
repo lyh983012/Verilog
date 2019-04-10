@@ -1,0 +1,21 @@
+[Inputs]
+[Outputs]
+SA0
+SA1
+SA2
+SA3
+SA4
+SA5
+SA6
+SA7
+SA8
+SA9
+IOR
+IOW
+AEN
+=SD[7:0]=
+[BiDir]
+GND
+[ATTRIBUTES]
+VeriModel my8056
+

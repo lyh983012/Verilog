@@ -1,0 +1,13 @@
+[Inputs]
+IOR
+IOW
+AEN
+GND
+=SA[9:0]=
+=SD[7:0]=
+[Outputs]
+=PA[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel bk
+

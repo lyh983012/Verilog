@@ -1,0 +1,10 @@
+Command line:
+   tb_74ls163_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50188
+
+Sun Jun 01 21:29:29 2014
+
+
+ Elaboration Time: 0.171601 sec

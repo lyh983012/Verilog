@@ -1,0 +1,763 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml my8255A.twx my8255A.ncd -o my8255A.twr my8255A.pcf
+
+Design file:              my8255A.ncd
+Physical constraint file: my8255A.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock ACK
+------------+------------+------------+------------+------------+---------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                     | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)    | Phase  |
+------------+------------+------------+------------+------------+---------------------+--------+
+SD<0>       |   -1.833(F)|      FAST  |    4.218(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<1>       |   -1.640(F)|      FAST  |    3.881(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<2>       |   -1.904(F)|      FAST  |    4.335(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<3>       |   -1.541(F)|      FAST  |    3.690(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<4>       |   -1.778(F)|      FAST  |    4.117(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<5>       |   -1.474(F)|      FAST  |    3.574(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<6>       |   -1.593(F)|      FAST  |    3.788(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<7>       |   -1.354(F)|      FAST  |    3.362(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+------------+------------+------------+------------+---------------------+--------+
+
+Setup/Hold to clock AEN
+------------+------------+------------+------------+------------+---------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                     | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)    | Phase  |
+------------+------------+------------+------------+------------+---------------------+--------+
+SD<0>       |   -1.450(F)|      FAST  |    3.507(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<1>       |   -1.257(F)|      FAST  |    3.170(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<2>       |   -1.521(F)|      FAST  |    3.624(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<3>       |   -1.158(F)|      FAST  |    2.979(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<4>       |   -1.395(F)|      FAST  |    3.406(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<5>       |   -1.091(F)|      FAST  |    2.863(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<6>       |   -1.210(F)|      FAST  |    3.077(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<7>       |   -0.971(F)|      FAST  |    2.651(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+------------+------------+------------+------------+---------------------+--------+
+
+Setup/Hold to clock IOW
+------------+------------+------------+------------+------------+---------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                     | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)    | Phase  |
+------------+------------+------------+------------+------------+---------------------+--------+
+SD<0>       |   -1.277(F)|      FAST  |    3.126(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<1>       |   -1.084(F)|      FAST  |    2.789(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<2>       |   -1.348(F)|      FAST  |    3.243(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<3>       |   -0.985(F)|      FAST  |    2.598(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<4>       |   -1.222(F)|      FAST  |    3.025(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<5>       |   -0.918(F)|      FAST  |    2.482(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<6>       |   -1.037(F)|      FAST  |    2.696(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<7>       |   -0.798(F)|      FAST  |    2.270(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+------------+------------+------------+------------+---------------------+--------+
+
+Setup/Hold to clock SA<0>
+------------+------------+------------+------------+------------+---------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                     | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)    | Phase  |
+------------+------------+------------+------------+------------+---------------------+--------+
+SD<0>       |   -1.283(F)|      FAST  |    3.117(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<1>       |   -1.090(F)|      FAST  |    2.780(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<2>       |   -1.354(F)|      FAST  |    3.234(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<3>       |   -0.991(F)|      FAST  |    2.589(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<4>       |   -1.228(F)|      FAST  |    3.016(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<5>       |   -0.924(F)|      FAST  |    2.473(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<6>       |   -1.043(F)|      FAST  |    2.687(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<7>       |   -0.804(F)|      FAST  |    2.261(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+------------+------------+------------+------------+---------------------+--------+
+
+Setup/Hold to clock SA<1>
+------------+------------+------------+------------+------------+---------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                     | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)    | Phase  |
+------------+------------+------------+------------+------------+---------------------+--------+
+SD<0>       |   -1.559(F)|      FAST  |    3.732(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<1>       |   -1.366(F)|      FAST  |    3.395(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<2>       |   -1.630(F)|      FAST  |    3.849(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<3>       |   -1.267(F)|      FAST  |    3.204(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<4>       |   -1.504(F)|      FAST  |    3.631(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<5>       |   -1.200(F)|      FAST  |    3.088(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<6>       |   -1.319(F)|      FAST  |    3.302(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<7>       |   -1.080(F)|      FAST  |    2.876(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+------------+------------+------------+------------+---------------------+--------+
+
+Setup/Hold to clock SA<2>
+------------+------------+------------+------------+------------+---------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                     | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)    | Phase  |
+------------+------------+------------+------------+------------+---------------------+--------+
+SD<0>       |   -1.436(F)|      FAST  |    3.435(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<1>       |   -1.243(F)|      FAST  |    3.098(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<2>       |   -1.507(F)|      FAST  |    3.552(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<3>       |   -1.144(F)|      FAST  |    2.907(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<4>       |   -1.381(F)|      FAST  |    3.334(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<5>       |   -1.077(F)|      FAST  |    2.791(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<6>       |   -1.196(F)|      FAST  |    3.005(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<7>       |   -0.957(F)|      FAST  |    2.579(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+------------+------------+------------+------------+---------------------+--------+
+
+Setup/Hold to clock SA<3>
+------------+------------+------------+------------+------------+---------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                     | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)    | Phase  |
+------------+------------+------------+------------+------------+---------------------+--------+
+SD<0>       |   -1.343(F)|      FAST  |    3.231(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<1>       |   -1.150(F)|      FAST  |    2.894(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<2>       |   -1.414(F)|      FAST  |    3.348(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<3>       |   -1.051(F)|      FAST  |    2.703(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<4>       |   -1.288(F)|      FAST  |    3.130(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<5>       |   -0.984(F)|      FAST  |    2.587(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<6>       |   -1.103(F)|      FAST  |    2.801(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<7>       |   -0.864(F)|      FAST  |    2.375(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+------------+------------+------------+------------+---------------------+--------+
+
+Setup/Hold to clock SA<4>
+------------+------------+------------+------------+------------+---------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                     | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)    | Phase  |
+------------+------------+------------+------------+------------+---------------------+--------+
+SD<0>       |   -1.635(F)|      FAST  |    3.844(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<1>       |   -1.442(F)|      FAST  |    3.507(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<2>       |   -1.706(F)|      FAST  |    3.961(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<3>       |   -1.343(F)|      FAST  |    3.316(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<4>       |   -1.580(F)|      FAST  |    3.743(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<5>       |   -1.276(F)|      FAST  |    3.200(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<6>       |   -1.395(F)|      FAST  |    3.414(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<7>       |   -1.156(F)|      FAST  |    2.988(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+------------+------------+------------+------------+---------------------+--------+
+
+Setup/Hold to clock SA<5>
+------------+------------+------------+------------+------------+---------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                     | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)    | Phase  |
+------------+------------+------------+------------+------------+---------------------+--------+
+SD<0>       |   -1.544(F)|      FAST  |    3.656(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<1>       |   -1.351(F)|      FAST  |    3.319(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<2>       |   -1.615(F)|      FAST  |    3.773(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<3>       |   -1.252(F)|      FAST  |    3.128(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<4>       |   -1.489(F)|      FAST  |    3.555(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<5>       |   -1.185(F)|      FAST  |    3.012(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<6>       |   -1.304(F)|      FAST  |    3.226(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<7>       |   -1.065(F)|      FAST  |    2.800(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+------------+------------+------------+------------+---------------------+--------+
+
+Setup/Hold to clock SA<6>
+------------+------------+------------+------------+------------+---------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                     | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)    | Phase  |
+------------+------------+------------+------------+------------+---------------------+--------+
+SD<0>       |   -1.442(F)|      FAST  |    3.438(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<1>       |   -1.249(F)|      FAST  |    3.101(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<2>       |   -1.513(F)|      FAST  |    3.555(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<3>       |   -1.150(F)|      FAST  |    2.910(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<4>       |   -1.387(F)|      FAST  |    3.337(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<5>       |   -1.083(F)|      FAST  |    2.794(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<6>       |   -1.202(F)|      FAST  |    3.008(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<7>       |   -0.963(F)|      FAST  |    2.582(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+------------+------------+------------+------------+---------------------+--------+
+
+Setup/Hold to clock SA<7>
+------------+------------+------------+------------+------------+---------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                     | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)    | Phase  |
+------------+------------+------------+------------+------------+---------------------+--------+
+SD<0>       |   -1.541(F)|      FAST  |    3.659(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<1>       |   -1.348(F)|      FAST  |    3.322(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<2>       |   -1.612(F)|      FAST  |    3.776(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<3>       |   -1.249(F)|      FAST  |    3.131(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<4>       |   -1.486(F)|      FAST  |    3.558(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<5>       |   -1.182(F)|      FAST  |    3.015(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<6>       |   -1.301(F)|      FAST  |    3.229(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<7>       |   -1.062(F)|      FAST  |    2.803(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+------------+------------+------------+------------+---------------------+--------+
+
+Setup/Hold to clock SA<8>
+------------+------------+------------+------------+------------+---------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                     | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)    | Phase  |
+------------+------------+------------+------------+------------+---------------------+--------+
+SD<0>       |   -1.557(F)|      FAST  |    3.697(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<1>       |   -1.364(F)|      FAST  |    3.360(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<2>       |   -1.628(F)|      FAST  |    3.814(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<3>       |   -1.265(F)|      FAST  |    3.169(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<4>       |   -1.502(F)|      FAST  |    3.596(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<5>       |   -1.198(F)|      FAST  |    3.053(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<6>       |   -1.317(F)|      FAST  |    3.267(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<7>       |   -1.078(F)|      FAST  |    2.841(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+------------+------------+------------+------------+---------------------+--------+
+
+Setup/Hold to clock SA<9>
+------------+------------+------------+------------+------------+---------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                     | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)    | Phase  |
+------------+------------+------------+------------+------------+---------------------+--------+
+SD<0>       |   -1.751(F)|      FAST  |    4.111(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<1>       |   -1.558(F)|      FAST  |    3.774(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<2>       |   -1.822(F)|      FAST  |    4.228(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<3>       |   -1.459(F)|      FAST  |    3.583(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<4>       |   -1.696(F)|      FAST  |    4.010(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<5>       |   -1.392(F)|      FAST  |    3.467(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<6>       |   -1.511(F)|      FAST  |    3.681(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+SD<7>       |   -1.272(F)|      FAST  |    3.255(F)|      SLOW  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+------------+------------+------------+------------+---------------------+--------+
+
+Clock ACK to Pad
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+INTR_B      |         6.141(F)|      SLOW  |         2.631(F)|      FAST  |INTR_B_G             |   0.000|
+OBF_B       |         6.701(F)|      SLOW  |         2.803(F)|      FAST  |OBF_B_G              |   0.000|
+PB<0>       |         8.707(F)|      SLOW  |         3.927(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<1>       |         8.406(F)|      SLOW  |         3.770(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<2>       |         8.799(F)|      SLOW  |         3.974(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<3>       |         8.164(F)|      SLOW  |         3.625(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<4>       |         8.612(F)|      SLOW  |         3.883(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<5>       |         8.048(F)|      SLOW  |         3.559(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<6>       |         8.297(F)|      SLOW  |         3.707(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<7>       |         7.858(F)|      SLOW  |         3.460(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Clock AEN to Pad
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+INTR_B      |         5.772(F)|      SLOW  |         2.734(F)|      FAST  |INTR_B_G             |   0.000|
+OBF_B       |         5.998(F)|      SLOW  |         2.827(F)|      FAST  |OBF_B_G              |   0.000|
+PB<0>       |         7.996(F)|      SLOW  |         3.544(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<1>       |         7.695(F)|      SLOW  |         3.387(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<2>       |         8.088(F)|      SLOW  |         3.591(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<3>       |         7.453(F)|      SLOW  |         3.242(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<4>       |         7.901(F)|      SLOW  |         3.500(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<5>       |         7.337(F)|      SLOW  |         3.176(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<6>       |         7.586(F)|      SLOW  |         3.324(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<7>       |         7.147(F)|      SLOW  |         3.077(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Clock INTE_B to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+INTR_B      |         5.540(F)|      SLOW  |         2.630(F)|      FAST  |INTR_B_G          |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock IOW to Pad
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+INTR_B      |         5.433(F)|      SLOW  |         2.574(F)|      FAST  |INTR_B_G             |   0.000|
+OBF_B       |         5.625(F)|      SLOW  |         2.650(F)|      FAST  |OBF_B_G              |   0.000|
+PB<0>       |         7.615(F)|      SLOW  |         3.371(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<1>       |         7.314(F)|      SLOW  |         3.214(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<2>       |         7.707(F)|      SLOW  |         3.418(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<3>       |         7.072(F)|      SLOW  |         3.069(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<4>       |         7.520(F)|      SLOW  |         3.327(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<5>       |         6.956(F)|      SLOW  |         3.003(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<6>       |         7.205(F)|      SLOW  |         3.151(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<7>       |         6.766(F)|      SLOW  |         2.904(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Clock SA<0> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+INTR_B      |         5.382(F)|      SLOW  |         2.567(F)|      FAST  |INTR_B_G             |   0.000|
+OBF_B       |         5.608(F)|      SLOW  |         2.660(F)|      FAST  |OBF_B_G              |   0.000|
+PB<0>       |         7.606(F)|      SLOW  |         3.377(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<1>       |         7.305(F)|      SLOW  |         3.220(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<2>       |         7.698(F)|      SLOW  |         3.424(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<3>       |         7.063(F)|      SLOW  |         3.075(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<4>       |         7.511(F)|      SLOW  |         3.333(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<5>       |         6.947(F)|      SLOW  |         3.009(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<6>       |         7.196(F)|      SLOW  |         3.157(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<7>       |         6.757(F)|      SLOW  |         2.910(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Clock SA<1> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+INTR_B      |         5.655(F)|      SLOW  |         2.650(F)|      FAST  |INTR_B_G             |   0.000|
+OBF_B       |         6.215(F)|      SLOW  |         2.930(F)|      FAST  |OBF_B_G              |   0.000|
+PB<0>       |         8.221(F)|      SLOW  |         3.653(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<1>       |         7.920(F)|      SLOW  |         3.496(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<2>       |         8.313(F)|      SLOW  |         3.700(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<3>       |         7.678(F)|      SLOW  |         3.351(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<4>       |         8.126(F)|      SLOW  |         3.609(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<5>       |         7.562(F)|      SLOW  |         3.285(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<6>       |         7.811(F)|      SLOW  |         3.433(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<7>       |         7.372(F)|      SLOW  |         3.186(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Clock SA<2> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+INTR_B      |         5.700(F)|      SLOW  |         2.720(F)|      FAST  |INTR_B_G             |   0.000|
+OBF_B       |         5.926(F)|      SLOW  |         2.813(F)|      FAST  |OBF_B_G              |   0.000|
+PB<0>       |         7.924(F)|      SLOW  |         3.530(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<1>       |         7.623(F)|      SLOW  |         3.373(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<2>       |         8.016(F)|      SLOW  |         3.577(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<3>       |         7.381(F)|      SLOW  |         3.228(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<4>       |         7.829(F)|      SLOW  |         3.486(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<5>       |         7.265(F)|      SLOW  |         3.162(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<6>       |         7.514(F)|      SLOW  |         3.310(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<7>       |         7.075(F)|      SLOW  |         3.063(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Clock SA<3> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+INTR_B      |         5.496(F)|      SLOW  |         2.627(F)|      FAST  |INTR_B_G             |   0.000|
+OBF_B       |         5.722(F)|      SLOW  |         2.720(F)|      FAST  |OBF_B_G              |   0.000|
+PB<0>       |         7.720(F)|      SLOW  |         3.437(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<1>       |         7.419(F)|      SLOW  |         3.280(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<2>       |         7.812(F)|      SLOW  |         3.484(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<3>       |         7.177(F)|      SLOW  |         3.135(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<4>       |         7.625(F)|      SLOW  |         3.393(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<5>       |         7.061(F)|      SLOW  |         3.069(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<6>       |         7.310(F)|      SLOW  |         3.217(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<7>       |         6.871(F)|      SLOW  |         2.970(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Clock SA<4> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+INTR_B      |         5.767(F)|      SLOW  |         2.726(F)|      FAST  |INTR_B_G             |   0.000|
+OBF_B       |         6.327(F)|      SLOW  |         3.006(F)|      FAST  |OBF_B_G              |   0.000|
+PB<0>       |         8.333(F)|      SLOW  |         3.729(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<1>       |         8.032(F)|      SLOW  |         3.572(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<2>       |         8.425(F)|      SLOW  |         3.776(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<3>       |         7.790(F)|      SLOW  |         3.427(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<4>       |         8.238(F)|      SLOW  |         3.685(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<5>       |         7.674(F)|      SLOW  |         3.361(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<6>       |         7.923(F)|      SLOW  |         3.509(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<7>       |         7.484(F)|      SLOW  |         3.262(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Clock SA<5> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+INTR_B      |         5.579(F)|      SLOW  |         2.635(F)|      FAST  |INTR_B_G             |   0.000|
+OBF_B       |         6.139(F)|      SLOW  |         2.915(F)|      FAST  |OBF_B_G              |   0.000|
+PB<0>       |         8.145(F)|      SLOW  |         3.638(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<1>       |         7.844(F)|      SLOW  |         3.481(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<2>       |         8.237(F)|      SLOW  |         3.685(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<3>       |         7.602(F)|      SLOW  |         3.336(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<4>       |         8.050(F)|      SLOW  |         3.594(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<5>       |         7.486(F)|      SLOW  |         3.270(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<6>       |         7.735(F)|      SLOW  |         3.418(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<7>       |         7.296(F)|      SLOW  |         3.171(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Clock SA<6> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+INTR_B      |         5.703(F)|      SLOW  |         2.726(F)|      FAST  |INTR_B_G             |   0.000|
+OBF_B       |         5.929(F)|      SLOW  |         2.819(F)|      FAST  |OBF_B_G              |   0.000|
+PB<0>       |         7.927(F)|      SLOW  |         3.536(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<1>       |         7.626(F)|      SLOW  |         3.379(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<2>       |         8.019(F)|      SLOW  |         3.583(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<3>       |         7.384(F)|      SLOW  |         3.234(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<4>       |         7.832(F)|      SLOW  |         3.492(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<5>       |         7.268(F)|      SLOW  |         3.168(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<6>       |         7.517(F)|      SLOW  |         3.316(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<7>       |         7.078(F)|      SLOW  |         3.069(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Clock SA<7> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+INTR_B      |         5.582(F)|      SLOW  |         2.632(F)|      FAST  |INTR_B_G             |   0.000|
+OBF_B       |         6.142(F)|      SLOW  |         2.912(F)|      FAST  |OBF_B_G              |   0.000|
+PB<0>       |         8.148(F)|      SLOW  |         3.635(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<1>       |         7.847(F)|      SLOW  |         3.478(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<2>       |         8.240(F)|      SLOW  |         3.682(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<3>       |         7.605(F)|      SLOW  |         3.333(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<4>       |         8.053(F)|      SLOW  |         3.591(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<5>       |         7.489(F)|      SLOW  |         3.267(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<6>       |         7.738(F)|      SLOW  |         3.415(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<7>       |         7.299(F)|      SLOW  |         3.168(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Clock SA<8> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+INTR_B      |         5.962(F)|      SLOW  |         2.841(F)|      FAST  |INTR_B_G             |   0.000|
+OBF_B       |         6.188(F)|      SLOW  |         2.934(F)|      FAST  |OBF_B_G              |   0.000|
+PB<0>       |         8.186(F)|      SLOW  |         3.651(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<1>       |         7.885(F)|      SLOW  |         3.494(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<2>       |         8.278(F)|      SLOW  |         3.698(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<3>       |         7.643(F)|      SLOW  |         3.349(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<4>       |         8.091(F)|      SLOW  |         3.607(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<5>       |         7.527(F)|      SLOW  |         3.283(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<6>       |         7.776(F)|      SLOW  |         3.431(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<7>       |         7.337(F)|      SLOW  |         3.184(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Clock SA<9> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+INTR_B      |         6.034(F)|      SLOW  |         2.842(F)|      FAST  |INTR_B_G             |   0.000|
+OBF_B       |         6.594(F)|      SLOW  |         3.122(F)|      FAST  |OBF_B_G              |   0.000|
+PB<0>       |         8.600(F)|      SLOW  |         3.845(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<1>       |         8.299(F)|      SLOW  |         3.688(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<2>       |         8.692(F)|      SLOW  |         3.892(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<3>       |         8.057(F)|      SLOW  |         3.543(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<4>       |         8.505(F)|      SLOW  |         3.801(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<5>       |         7.941(F)|      SLOW  |         3.477(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<6>       |         8.190(F)|      SLOW  |         3.625(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+PB<7>       |         7.751(F)|      SLOW  |         3.378(F)|      FAST  |ACK_GND_1_o_AND_23_o1|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Clock to Setup on destination clock ACK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ACK            |         |         |    0.095|    1.977|
+AEN            |         |         |         |    1.977|
+INTE_B         |         |         |    0.097|    0.097|
+IOW            |         |         |   -0.083|    1.977|
+SA<0>          |         |         |         |    1.977|
+SA<1>          |         |         |         |    1.977|
+SA<2>          |         |         |         |    1.977|
+SA<3>          |         |         |         |    1.977|
+SA<4>          |         |         |         |    1.977|
+SA<5>          |         |         |         |    1.977|
+SA<6>          |         |         |         |    1.977|
+SA<7>          |         |         |         |    1.977|
+SA<8>          |         |         |         |    1.977|
+SA<9>          |         |         |         |    1.977|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock AEN
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ACK            |         |         |    0.018|    1.977|
+AEN            |         |         |         |    1.977|
+INTE_B         |         |         |   -0.006|   -0.006|
+IOW            |         |         |   -0.186|    1.977|
+SA<0>          |         |         |         |    1.977|
+SA<1>          |         |         |         |    1.977|
+SA<2>          |         |         |         |    1.977|
+SA<3>          |         |         |         |    1.977|
+SA<4>          |         |         |         |    1.977|
+SA<5>          |         |         |         |    1.977|
+SA<6>          |         |         |         |    1.977|
+SA<7>          |         |         |         |    1.977|
+SA<8>          |         |         |         |    1.977|
+SA<9>          |         |         |         |    1.977|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock INTE_B
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ACK            |         |         |    0.096|    1.977|
+AEN            |         |         |         |    1.977|
+INTE_B         |         |         |    0.098|    0.098|
+IOW            |         |         |   -0.082|    1.977|
+SA<0>          |         |         |         |    1.977|
+SA<1>          |         |         |         |    1.977|
+SA<2>          |         |         |         |    1.977|
+SA<3>          |         |         |         |    1.977|
+SA<4>          |         |         |         |    1.977|
+SA<5>          |         |         |         |    1.977|
+SA<6>          |         |         |         |    1.977|
+SA<7>          |         |         |         |    1.977|
+SA<8>          |         |         |         |    1.977|
+SA<9>          |         |         |         |    1.977|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock IOW
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ACK            |         |         |    0.195|    1.977|
+AEN            |         |         |         |    1.977|
+INTE_B         |         |         |    0.154|    0.154|
+IOW            |         |         |   -0.026|    1.977|
+SA<0>          |         |         |         |    1.977|
+SA<1>          |         |         |         |    1.977|
+SA<2>          |         |         |         |    1.977|
+SA<3>          |         |         |         |    1.977|
+SA<4>          |         |         |         |    1.977|
+SA<5>          |         |         |         |    1.977|
+SA<6>          |         |         |         |    1.977|
+SA<7>          |         |         |         |    1.977|
+SA<8>          |         |         |         |    1.977|
+SA<9>          |         |         |         |    1.977|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SA<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ACK            |         |         |    0.185|    1.977|
+AEN            |         |         |         |    1.977|
+INTE_B         |         |         |    0.183|    0.183|
+IOW            |         |         |   -0.019|    1.977|
+SA<0>          |         |         |         |    1.977|
+SA<1>          |         |         |         |    1.977|
+SA<2>          |         |         |         |    1.977|
+SA<3>          |         |         |         |    1.977|
+SA<4>          |         |         |         |    1.977|
+SA<5>          |         |         |         |    1.977|
+SA<6>          |         |         |         |    1.977|
+SA<7>          |         |         |         |    1.977|
+SA<8>          |         |         |         |    1.977|
+SA<9>          |         |         |         |    1.977|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SA<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ACK            |         |         |    0.076|    1.977|
+AEN            |         |         |         |    1.977|
+INTE_B         |         |         |    0.078|    0.078|
+IOW            |         |         |   -0.102|    1.977|
+SA<0>          |         |         |         |    1.977|
+SA<1>          |         |         |         |    1.977|
+SA<2>          |         |         |         |    1.977|
+SA<3>          |         |         |         |    1.977|
+SA<4>          |         |         |         |    1.977|
+SA<5>          |         |         |         |    1.977|
+SA<6>          |         |         |         |    1.977|
+SA<7>          |         |         |         |    1.977|
+SA<8>          |         |         |         |    1.977|
+SA<9>          |         |         |         |    1.977|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SA<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ACK            |         |         |    0.032|    1.977|
+AEN            |         |         |         |    1.977|
+INTE_B         |         |         |    0.008|    0.008|
+IOW            |         |         |   -0.172|    1.977|
+SA<0>          |         |         |         |    1.977|
+SA<1>          |         |         |         |    1.977|
+SA<2>          |         |         |         |    1.977|
+SA<3>          |         |         |         |    1.977|
+SA<4>          |         |         |         |    1.977|
+SA<5>          |         |         |         |    1.977|
+SA<6>          |         |         |         |    1.977|
+SA<7>          |         |         |         |    1.977|
+SA<8>          |         |         |         |    1.977|
+SA<9>          |         |         |         |    1.977|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SA<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ACK            |         |         |    0.125|    1.977|
+AEN            |         |         |         |    1.977|
+INTE_B         |         |         |    0.101|    0.101|
+IOW            |         |         |   -0.079|    1.977|
+SA<0>          |         |         |         |    1.977|
+SA<1>          |         |         |         |    1.977|
+SA<2>          |         |         |         |    1.977|
+SA<3>          |         |         |         |    1.977|
+SA<4>          |         |         |         |    1.977|
+SA<5>          |         |         |         |    1.977|
+SA<6>          |         |         |         |    1.977|
+SA<7>          |         |         |         |    1.977|
+SA<8>          |         |         |         |    1.977|
+SA<9>          |         |         |         |    1.977|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SA<4>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ACK            |         |         |    0.000|    1.977|
+AEN            |         |         |         |    1.977|
+INTE_B         |         |         |    0.002|    0.002|
+IOW            |         |         |   -0.178|    1.977|
+SA<0>          |         |         |         |    1.977|
+SA<1>          |         |         |         |    1.977|
+SA<2>          |         |         |         |    1.977|
+SA<3>          |         |         |         |    1.977|
+SA<4>          |         |         |         |    1.977|
+SA<5>          |         |         |         |    1.977|
+SA<6>          |         |         |         |    1.977|
+SA<7>          |         |         |         |    1.977|
+SA<8>          |         |         |         |    1.977|
+SA<9>          |         |         |         |    1.977|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SA<5>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ACK            |         |         |    0.091|    1.977|
+AEN            |         |         |         |    1.977|
+INTE_B         |         |         |    0.093|    0.093|
+IOW            |         |         |   -0.087|    1.977|
+SA<0>          |         |         |         |    1.977|
+SA<1>          |         |         |         |    1.977|
+SA<2>          |         |         |         |    1.977|
+SA<3>          |         |         |         |    1.977|
+SA<4>          |         |         |         |    1.977|
+SA<5>          |         |         |         |    1.977|
+SA<6>          |         |         |         |    1.977|
+SA<7>          |         |         |         |    1.977|
+SA<8>          |         |         |         |    1.977|
+SA<9>          |         |         |         |    1.977|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SA<6>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ACK            |         |         |    0.026|    1.977|
+AEN            |         |         |         |    1.977|
+INTE_B         |         |         |    0.002|    0.002|
+IOW            |         |         |   -0.178|    1.977|
+SA<0>          |         |         |         |    1.977|
+SA<1>          |         |         |         |    1.977|
+SA<2>          |         |         |         |    1.977|
+SA<3>          |         |         |         |    1.977|
+SA<4>          |         |         |         |    1.977|
+SA<5>          |         |         |         |    1.977|
+SA<6>          |         |         |         |    1.977|
+SA<7>          |         |         |         |    1.977|
+SA<8>          |         |         |         |    1.977|
+SA<9>          |         |         |         |    1.977|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SA<7>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ACK            |         |         |    0.094|    1.977|
+AEN            |         |         |         |    1.977|
+INTE_B         |         |         |    0.096|    0.096|
+IOW            |         |         |   -0.084|    1.977|
+SA<0>          |         |         |         |    1.977|
+SA<1>          |         |         |         |    1.977|
+SA<2>          |         |         |         |    1.977|
+SA<3>          |         |         |         |    1.977|
+SA<4>          |         |         |         |    1.977|
+SA<5>          |         |         |         |    1.977|
+SA<6>          |         |         |         |    1.977|
+SA<7>          |         |         |         |    1.977|
+SA<8>          |         |         |         |    1.977|
+SA<9>          |         |         |         |    1.977|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SA<8>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ACK            |         |         |   -0.089|    1.977|
+AEN            |         |         |         |    1.977|
+INTE_B         |         |         |   -0.113|   -0.113|
+IOW            |         |         |   -0.293|    1.977|
+SA<0>          |         |         |         |    1.977|
+SA<1>          |         |         |         |    1.977|
+SA<2>          |         |         |         |    1.977|
+SA<3>          |         |         |         |    1.977|
+SA<4>          |         |         |         |    1.977|
+SA<5>          |         |         |         |    1.977|
+SA<6>          |         |         |         |    1.977|
+SA<7>          |         |         |         |    1.977|
+SA<8>          |         |         |         |    1.977|
+SA<9>          |         |         |         |    1.977|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SA<9>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ACK            |         |         |   -0.116|    1.977|
+AEN            |         |         |         |    1.977|
+INTE_B         |         |         |   -0.114|   -0.114|
+IOW            |         |         |   -0.294|    1.977|
+SA<0>          |         |         |         |    1.977|
+SA<1>          |         |         |         |    1.977|
+SA<2>          |         |         |         |    1.977|
+SA<3>          |         |         |         |    1.977|
+SA<4>          |         |         |         |    1.977|
+SA<5>          |         |         |         |    1.977|
+SA<6>          |         |         |         |    1.977|
+SA<7>          |         |         |         |    1.977|
+SA<8>          |         |         |         |    1.977|
+SA<9>          |         |         |         |    1.977|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Mon Mar 25 20:55:12 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 614 MB
+
+
+

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="homework2.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="bk.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="bk.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="bk.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="bk.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="bk.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="intel8056.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="intel8056.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="intel8056.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="intel8056.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="intel8056.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="intel8056.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="intel8056.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="intel8056.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="intel8056.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="intel8056.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="intel8056.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="intel8056_envsettings.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="intel8056_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="intel8056_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="intel8056_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="intel8056_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="intel8056_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="my8056.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="my8056.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="my8255A.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="my8255A.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="my8255A.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="my8255A.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="my8255A.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="my8255A.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="my8255A.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="my8255A_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="my8255A_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="my8255A_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1401631109" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1401631109">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1401634444" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-7360631754206818384" xil_pn:start_ts="1401634444">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1401634444" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-3437581502620642760" xil_pn:start_ts="1401634444">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1401631109" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1401631109">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1401634444" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-3662594610597142126" xil_pn:start_ts="1401634444">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1401631109" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1401631109">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1401634444" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="7343990574689942402" xil_pn:start_ts="1401634444">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1401634619" xil_pn:in_ck="-3690123904464344787" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="2693584762612116341" xil_pn:start_ts="1401634605">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="my8255A.lso"/>
+      <outfile xil_pn:name="my8255A.prj"/>
+      <outfile xil_pn:name="my8255A.syr"/>
+      <outfile xil_pn:name="my8255A.xst"/>
+      <outfile xil_pn:name="my8255A_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1401634583" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="1262981275518792509" xil_pn:start_ts="1401634583">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1401631631" xil_pn:in_ck="-3596904885412840843" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="6878307097668008253" xil_pn:start_ts="1401631587">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1401631631" xil_pn:in_ck="-3596904885412840842" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="2100985583056581773" xil_pn:start_ts="1401631631">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,14 @@
+[Inputs]
+RD
+WS
+CS
+A1
+A0
+GND
+=D[7:0]=
+=PA[7:0]=
+[Outputs]
+[BiDir]
+[ATTRIBUTES]
+VeriModel my8255A
+

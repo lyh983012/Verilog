@@ -1,0 +1,21 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/lyh/Desktop/Homework/homework3/testbench_isim_beh.exe -prj C:/Users/lyh/Desktop/Homework/homework3/testbench_beh.prj work.testbench work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/lyh/Desktop/Homework/homework3/my8255A.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/lyh/Desktop/Homework/homework3/my8255A.v" Line 49: Redeclaration of ansi port INTR_A is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/lyh/Desktop/Homework/homework3/my8255A.v" Line 50: Redeclaration of ansi port INTR_B is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/lyh/Desktop/Homework/homework3/my8255A.v" Line 51: Redeclaration of ansi port IBF_A is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/lyh/Desktop/Homework/homework3/my8255A.v" Line 52: Redeclaration of ansi port OBF_B is not allowed
+Analyzing Verilog file "C:/Users/lyh/Desktop/Homework/homework3/testbench.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module my8255A
+Compiling module testbench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+ERROR:Simulator:904 - Unable to remove previous simulation file isim/testbench_isim_beh.exe.sim/testbench_isim_beh.exe. Please check if you have another instance of this simulation running on your system, terminate it and then recompile your design. System Error Message: boost::filesystem::remove: ¾Ü¾ø·ÃÎÊ¡£: "isim\testbench_isim_beh.exe.sim\testbench_isim_beh.exe"
+ERROR:Simulator:861 - Failed to link the design

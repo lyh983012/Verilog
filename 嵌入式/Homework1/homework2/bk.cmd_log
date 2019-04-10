@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/lyh/Desktop/Homework/homework2/bk.v -lang verilog -prj homework2 -o bk.spl -module bk -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 bk.spl C:/Users/lyh/Desktop/Homework/homework2/bk.sym 

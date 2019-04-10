@@ -1,0 +1,52 @@
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 my8255A.ngc my8255A.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o my8255A_map.ncd my8255A.ngd my8255A.pcf 
+par -w -intstyle ise -ol high -mt off my8255A_map.ncd my8255A.ncd my8255A.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml my8255A.twx my8255A.ncd -o my8255A.twr my8255A.pcf 
+vhdtdtfi -lib work C:/Users/lyh/Desktop/Homework/homework3/my8255A.v -lang verilog -prj homework3 -o my8255A.spl -module my8255A -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 my8255A.spl C:/Users/lyh/Desktop/Homework/homework3/my8255A.sym 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml my8255A_preroute.twx my8255A_map.ncd -o my8255A_preroute.twr my8255A.pcf 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 my8255A.ngc my8255A.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o my8255A_map.ncd my8255A.ngd my8255A.pcf 
+par -w -intstyle ise -ol high -mt off my8255A_map.ncd my8255A.ncd my8255A.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml my8255A.twx my8255A.ncd -o my8255A.twr my8255A.pcf 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 my8255A.ngc my8255A.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o my8255A_map.ncd my8255A.ngd my8255A.pcf 
+par -w -intstyle ise -ol high -mt off my8255A_map.ncd my8255A.ncd my8255A.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml my8255A.twx my8255A.ncd -o my8255A.twr my8255A.pcf 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 my8255A.ngc my8255A.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o my8255A_map.ncd my8255A.ngd my8255A.pcf 
+par -w -intstyle ise -ol high -mt off my8255A_map.ncd my8255A.ncd my8255A.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml my8255A.twx my8255A.ncd -o my8255A.twr my8255A.pcf 
+vhdtdtfi -lib work C:/Users/lyh/Desktop/Homework/homework3/my8255A.v -lang verilog -prj homework3 -o my8255A.spl -module my8255A -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 my8255A.spl C:/Users/lyh/Desktop/Homework/homework3/my8255A.sym 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 my8255A.ngc my8255A.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o my8255A_map.ncd my8255A.ngd my8255A.pcf 
+par -w -intstyle ise -ol high -mt off my8255A_map.ncd my8255A.ncd my8255A.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml my8255A.twx my8255A.ncd -o my8255A.twr my8255A.pcf 
+xst -intstyle ise -ifn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.xst" -ofn "C:/Users/lyh/Desktop/Homework/homework3/my8255A.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 my8255A.ngc my8255A.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o my8255A_map.ncd my8255A.ngd my8255A.pcf 
+par -w -intstyle ise -ol high -mt off my8255A_map.ncd my8255A.ncd my8255A.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml my8255A.twx my8255A.ncd -o my8255A.twr my8255A.pcf 

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/lyh/Desktop/Homework/homework2/my8056.v -lang verilog -prj homework2 -o my8056.spl -module my8056 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 my8056.spl C:/Users/lyh/Desktop/Homework/homework2/my8056.sym 

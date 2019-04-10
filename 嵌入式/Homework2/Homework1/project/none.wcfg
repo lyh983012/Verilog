@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/lyh/Desktop/Homework/Homework1/tb_74ls163_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_74ls163" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/tb_74ls163/QH" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">QH</obj_property>
+      <obj_property name="ObjectShortName">QH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_74ls163/QH_inv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">QH_inv</obj_property>
+      <obj_property name="ObjectShortName">QH_inv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_74ls163/in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_74ls163/clk" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="label">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_74ls163/clk_inh" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_inh</obj_property>
+      <obj_property name="ObjectShortName">clk_inh</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_74ls163/SER" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SER</obj_property>
+      <obj_property name="ObjectShortName">SER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_74ls163/shld" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">shld</obj_property>
+      <obj_property name="ObjectShortName">shld</obj_property>
+   </wvobject>
+</wave_config>
